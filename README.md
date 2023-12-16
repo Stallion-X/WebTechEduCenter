@@ -70,6 +70,7 @@ A web tech learning platform built by Vue2 + Element, which is also a demo front
 | WangEditor自定义编辑器上传文件逻辑  | ➖ |
 | 分片上传接收，断点续传  | ➖ |
 | 后端部分业务逻辑完善  | ➖ |
+| 前端部分功能对接完善  | ➖ |
 | Echarts后端数据  | ➖ |
 | 前端axios二次封装重构  | ➖ |
 | 用户登录校验逻辑重构，JWT+单点  | ➖ |
