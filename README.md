@@ -1,7 +1,9 @@
 # WebTechEduCenter
 A web tech learning platform built by Vue2 + Element, which is also a demo frontend learning project in itself.
 
-前端技术学习平台，完成大部分功能，未使用Vue-CLI等脚手架，尝试了纯手动Webpack
+前端技术学习平台
+
+完成大部分功能，未使用Vue-CLI等脚手架，尝试了纯手动Webpack
 
 # 需求说明
 系统中涉及学期、教师、班级、学生、试题、考试、实验、作业等各类实体，相关需求如下：
