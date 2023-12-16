@@ -21,3 +21,51 @@ A web tech learning platform built by Vue2 + Element, which is also a demo front
 （7）	能够按比例计算总评分数并统计平均分、及格人数以及统计图表等；
 
 （8）	增加自选功能，形成自己的特色。
+
+# 数据库设计（指定）
+数据库名为labex，数据库中必须包含以下表格，请勿修改其表名、字段名以及字段类型。
+**学生表（t_student）**
+
+| Field            | Type        | Null | Key | Default | Extra          |
+|------------------|-------------|------|-----|---------|----------------|
+| student_id       | int         | NO   | PRI | NULL    | auto_increment |
+| student_no       | varchar(8)  | NO   | UNI | NULL    |                |
+| student_name     | varchar(20) | NO   |     | NULL    |                |
+| student_password | char(32)    | NO   |     | NULL    |                |
+| clazz_no         | varchar(6)  | NO   | MUL | NULL    |                |
+| memo             | text        | YES  |     | NULL    |                |
+
+**答题表（t_student_item）**
+
+| Field            | Type        | Null | Key | Default | Extra          |
+|------------------|-------------|------|-----|---------|----------------|
+| student_item_id  | int         | NO   | PRI | NULL    | auto_increment |
+| student_id       | int         | NO   | MUL | NULL    |                |
+| item_id          | int         | NO   | MUL | NULL    |                |
+| content          | text        | YES  |     | NULL    |                |
+| score            | tinyint     | NO   |     | NULL    |                |
+| fill_time        | datetime    | YES  |     | NULL    |                |
+
+注意：在上面的表格中，Key所在列中的UNI对应于唯一性索引，MUL对应于外键。
+
+
+# Plans
+|  计划   | 是否完成  |
+|  :----  | :----:  |
+| 学习Vue Router  | ✅ |
+| Axios  | ✅ |
+| localStorage  | ✅ |
+| Echarts  | ✅ |
+| Websocket  | ✅ |
+| SSE  | ✅ |
+| Web Worker  | ✅ |
+| SpringBoot+Mybatis+Mybatis-plus  | ✅ |
+| 单文件组件  | ✅ |
+| 文档模板生成器DocxTemplate  | ✅ |
+| 富文本编辑器WangEditor  | ✅ |
+| 封装、注册组件  | ✅ |
+| WangEditor组件key重复问题  | ➖ |
+| WangEditor自定义编辑器  | ➖ |
+| 后端部分业务逻辑完善  | ➖ |
+| Echarts后端数据  | ➖ |
+| 前端axios二次封装重构  | ➖ |
