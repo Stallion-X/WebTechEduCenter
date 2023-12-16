@@ -54,6 +54,7 @@ A web tech learning platform built by Vue2 + Element, which is also a demo front
 |  计划   | 是否完成  |
 |  :----  | :----:  |
 | 学习Vue Router  | ✅ |
+| 学习Webpack  | ✅ |
 | Axios  | ✅ |
 | localStorage  | ✅ |
 | VueX  | ✅ |
