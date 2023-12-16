@@ -83,3 +83,4 @@ A web tech learning platform built by Vue2 + Element, which is also a demo front
 | 后端Controller部分复杂方法重构  | ➖ |
 | OJ平台沙箱判题  | ➖ |
 | Redis，MQ  | ➖ |
+| Vue3重构  | ➖ |
