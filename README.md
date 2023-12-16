@@ -61,7 +61,7 @@ A web tech learning platform built by Vue2 + Element, which is also a demo front
 | WebSocket  | ✅ |
 | SSE  | ✅ |
 | Web Worker  | ✅ |
-| SpringBoot+Mybatis+Mybatis-plus  | ✅ |
+| SpringBoot+SpringMVC+Mybatis-plus  | ✅ |
 | 单文件组件  | ✅ |
 | 文档模板生成器DocxTemplate  | ✅ |
 | 富文本编辑器WangEditor  | ✅ |
