@@ -24,6 +24,7 @@ A web tech learning platform built by Vue2 + Element, which is also a demo front
 
 # 数据库设计（指定）
 数据库名为labex，数据库中必须包含以下表格，请勿修改其表名、字段名以及字段类型。
+
 **学生表（t_student）**
 
 | Field            | Type        | Null | Key | Default | Extra          |
