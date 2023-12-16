@@ -74,3 +74,4 @@ A web tech learning platform built by Vue2 + Element, which is also a demo front
 | 前端axios二次封装重构  | ➖ |
 | 用户登录校验逻辑重构，JWT+单点  | ➖ |
 | OJ平台沙箱判题  | ➖ |
+| Redis，MQ  | ➖ |
