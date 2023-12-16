@@ -1,0 +1,20 @@
+mybatis-plus:
+  mapper-locations: classpath:mybatisplus/mapper/*.xml
+  configuration:
+    cache-enabled: false
+    map-underscore-to-camel-case: false
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  type-aliases-package: com.labex.Beans
+spring.datasource:
+  type: com.alibaba.druid.pool.DruidDataSource
+  driver-class-name: com.mysql.cj.jdbc.Driver
+  url: jdbc:mysql://127.0.0.1:3306/labex?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+  username: root
+  password: root
+  druid:
+    test-while-idle: true
+    validation-query: SELECT 1
+spring:
+  sql:
+    init:
+      platform: mysql
