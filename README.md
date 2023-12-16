@@ -56,8 +56,9 @@ A web tech learning platform built by Vue2 + Element, which is also a demo front
 | 学习Vue Router  | ✅ |
 | Axios  | ✅ |
 | localStorage  | ✅ |
+| VueX  | ✅ |
 | Echarts  | ✅ |
-| Websocket  | ✅ |
+| WebSocket  | ✅ |
 | SSE  | ✅ |
 | Web Worker  | ✅ |
 | SpringBoot+Mybatis+Mybatis-plus  | ✅ |
@@ -66,7 +67,9 @@ A web tech learning platform built by Vue2 + Element, which is also a demo front
 | 富文本编辑器WangEditor  | ✅ |
 | 封装、注册组件  | ✅ |
 | WangEditor组件key重复问题  | ➖ |
-| WangEditor自定义编辑器  | ➖ |
+| WangEditor自定义编辑器上传文件逻辑  | ➖ |
+| 分片上传接收，断点续传  | ➖ |
 | 后端部分业务逻辑完善  | ➖ |
 | Echarts后端数据  | ➖ |
 | 前端axios二次封装重构  | ➖ |
+| OJ平台沙箱判题  | ➖ |
